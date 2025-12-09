@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+    int a[]={10,20,30,10,20};
+    int g=0;
+    int n=a.length;
+    for(int i=0;i<n;i++){
+        if(a[i]>g)
+        {
+            g=a[i];
+        }
+    }
+    System.out.println(g);
+    }
+}
